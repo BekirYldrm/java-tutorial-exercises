@@ -1,0 +1,28 @@
+package ExceptionHandlingInJava;
+
+class Amount {
+	
+	private int amount;
+	private String currency;
+	
+	public Amount(int amount, String currency) {
+		super();
+		this.amount = amount;
+		this.currency = currency;
+	}
+	
+	
+	
+	
+}
+
+
+public class ThrowingExceptionRunnner {
+
+	public static void main(String[] args) {
+		
+	
+
+	}
+
+}

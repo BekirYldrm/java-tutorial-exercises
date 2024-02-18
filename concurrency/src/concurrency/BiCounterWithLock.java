@@ -1,0 +1,34 @@
+package concurrency;
+
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.Lock;
+
+public class BiCounterWithLock {
+	
+	private int i = 0; 
+	private int j = 0;
+	
+	Lock  lockForI = new ReentrantLock();
+	Lock  lockForJ = new ReentrantLock();
+	
+	 public void incrementI() {
+		 lockForI.lock();
+		 i++;
+		 lockForI.unlock();
+	}
+	
+	public int getI() {
+		return i;
+	}
+	 public void incrementJ() {
+		 lockForJ.lock();
+		 j++;
+		 lockForJ.unlock();
+	}
+	
+	public int getJ() {
+		
+		return j;
+	}
+
+}

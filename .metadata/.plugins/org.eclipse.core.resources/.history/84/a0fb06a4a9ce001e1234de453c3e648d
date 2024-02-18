@@ -1,0 +1,15 @@
+package tips.imports;
+
+import static java.lang.System.out;
+import static java.lang.Math.sqrt;
+
+
+public class ImportsRunner {
+
+	public static void main(String[] args) {
+		
+		out.println(sqrt(25));
+
+	}
+
+}
