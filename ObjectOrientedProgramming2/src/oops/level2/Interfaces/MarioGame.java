@@ -10,19 +10,19 @@ public class MarioGame  implements GamingConsole{
 
 	@Override
 	public void down() {
-		System.out.println("Goes into a hole");
+		System.out.println("bend down");
 		
 	}
 
 	@Override
 	public void left() {
 		
-		
+		System.out.println("go back");
 	}
 
 	@Override
 	public void right() {
-		System.out.println("Go forward");
+		System.out.println("go forward");
 		
 	}
 

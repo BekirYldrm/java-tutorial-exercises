@@ -11,7 +11,7 @@ public class Student {
 	// Member variables
 	
 	private String name ;  
-	private ArrayList<Integer> marks =new ArrayList<Integer>(); 
+	private ArrayList<Integer> marks =new ArrayList<>(); 
 
 	
 	//// Constructor method

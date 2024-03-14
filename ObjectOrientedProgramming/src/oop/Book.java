@@ -5,7 +5,7 @@ public class Book {
 	
 	private int noOfCopies;  // member variables
 	
-	// Behaviour
+	// Behavior
 	
 	public Book(int noOfCopies) { 	// constructor method
 		this.noOfCopies = noOfCopies;

@@ -6,6 +6,46 @@ public class Runner {
 	
 	public static void main(String[] args) {
 		
+		Person person1 = new Person("bekir");
+		System.out.println(person1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		Student student = new Student("Bekir" , "Inonu CE");
 		
 		student.setEmail("bekiryildirim.2508@gmail.com");

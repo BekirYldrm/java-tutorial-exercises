@@ -19,5 +19,7 @@ public class Recipe2 extends AbstractRecipe {
 		System.out.println("clean up2");
 		
 	}
+	
+	
 
 }

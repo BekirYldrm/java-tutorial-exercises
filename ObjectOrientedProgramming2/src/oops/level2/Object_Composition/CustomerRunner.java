@@ -4,9 +4,7 @@ public class CustomerRunner {
 	public static void main(String[] args) {
 		
 		
-		Adress homeAdress = new Adress("line1", "Istanbul","3400");
-		
-		Customer customer = new Customer("beko" ,homeAdress );
+		Customer customer = new Customer("bekir" ,new Adress("line1", "Istanbul","3400") );
 		
 		
 		Adress workAdress = new Adress ("line2" , "Malatya" , "4400");

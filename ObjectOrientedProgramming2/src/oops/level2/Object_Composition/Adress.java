@@ -9,6 +9,7 @@ public class Adress {
 	
 	
 	//creation (constructor)
+	 
 	public Adress(String line1, String city, String zip) {
 		super();
 		this.line1 = line1;
@@ -16,11 +17,13 @@ public class Adress {
 		this.zip = zip;
 	}
 
-
 	
 	public String toString() {
 		return  line1 + " " + city + " " + zip ; 
 	}
+
+
+
 	
 	
 	
